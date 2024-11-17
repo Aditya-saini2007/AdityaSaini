@@ -271,7 +271,6 @@
 // console.log(arr1);
 
 //functions
-//aeea
-
+//
 
 
