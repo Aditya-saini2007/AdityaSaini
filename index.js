@@ -270,7 +270,19 @@
 // arr1.shift();
 // console.log(arr1);
 
-//functions
-//
+//17/11/2024
+//map method
+//a = [1,2,3,4,5,6]
+//a.map((value,index,arr)=>value*2)
 
+//function returning function
+function myfun(){
+    function hello(){
+        console.log("hello world");
+        
+    }
+    return hello
+}
+let data = myfun();
+console.log(data());
 
