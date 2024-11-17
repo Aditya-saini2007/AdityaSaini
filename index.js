@@ -276,13 +276,19 @@
 //a.map((value,index,arr)=>value*2)
 
 //function returning function
-function myfun(){
-    function hello(){
-        console.log("hello world");
+// function myfun(){
+//     function hello(){
+//         console.log("hello world");
         
-    }
-    return hello
-}
-let data = myfun();
-console.log(data());
+//     }
+//     return hello
+// }
+// let data = myfun();
+// console.log(data());
+
+
+let arr = [2,3,4,5,6];
+let newmap = arr.map((val, index,arr)=>val*3)
+console.log(newmap);
+
 
