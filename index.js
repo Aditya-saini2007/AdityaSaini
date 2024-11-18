@@ -106,7 +106,7 @@
 //let arr1=[1,2,3,4,5,6,7,8];
 //splice method
 //first no. indicate index ,second indicate no. of characters del, third no. indicate adding character or we cxan say that replace from that dlete charater but print only deleted value
-//let splicearr = arr1.splice(3,1);
+//let splicearr = arr1.splice(3,1,5,9);
 
 //let arr2=[1,2,3,4,5,6,7,8];
 //includes method
@@ -289,6 +289,33 @@
 
 let arr = [2,3,4,5,6];
 let newmap = arr.map((val, index,arr)=>val*3)
-console.log(newmap);
+// console.log(newmap);
+ let filtermap = newmap.filter((val,index,arr)=>val>8);
+//  console.log(filtermap);
+let ss = filtermap.reduce((acc,val)=>acc+val)
+console.log(ss);
+
+
+// sorting
+let sArr=[9,2,1,13,24,3,6,32];
+let result= sArr.sort((a,b)=>b-a);
+let result1= sArr.sort()
+console.log(result);
+
+let check= sArr.find((val)=>val>40);
+console.log(check);
+
+
+//every method
+let sArr1 = [9,2,1,13,24,3,6,32];
+let res1 = sArr1.every((val)=>val < 0 )
+console.log(res1);
+
+//fill method
+
+
+
+
+ 
 
 
