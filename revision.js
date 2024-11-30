@@ -22,14 +22,18 @@
 // console.log(item["hello"]);
 
 //question
-let a = "aaditya";
-let b = 50;
-console.log(a+b);
-console.log(typeof (a+b));
-const c = {
-     name : "aaditya",
-     section : 1,
-     isprincipal : true,
+// let a = "aaditya";
+// let b = 50;
+// console.log(a+b);
+// console.log(typeof (a+b));
+// const c = {
+//      name : "aaditya",
+//      section : 1,
+//      isprincipal : true,
 
-}
+// }
+
+let a = "52";
+console.log(typeof a);
+
 
