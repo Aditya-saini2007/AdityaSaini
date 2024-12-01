@@ -33,6 +33,25 @@ class Superhuman extends Human {
 }
 let Aditya = new Human("Aditya",105,"male","bright",75,"6'2");
 let Aditya1 = new Superhuman("shaktiman",5000,"Ladka","Kallu",200,"7'9","infinite")
-console.log(Aditya1);
-console.log(Aditya1.walking());
+// console.log(Aditya1);
+// console.log(Aditya1.walking());
 
+
+//animal class
+class Animal {
+    constructor(breed,lifespan,){
+        this.species = species;
+        this.lifespan = lifespan
+        this.gender = gender
+        this.color = color
+        this.weight = weight
+        this.height = height
+        this.legs = legs
+        this.maxspeed = maxspeed
+        this.stamina = stamina
+    }
+    walking(){
+        return`${}`
+    }
+}
+ 
