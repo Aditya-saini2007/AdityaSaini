@@ -13,7 +13,7 @@ class Library{
         this.ListOfBooks.push(new BookStock(bTitle,bAuthor,bQty,bPrice,bYear,bType))
     }
     issuebook(){
-
+        
     }
     returnbook(){
 
