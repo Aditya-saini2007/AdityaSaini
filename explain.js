@@ -51,7 +51,7 @@ class Animal {
         this.stamina = stamina
     }
     walking(){
-        return`${}`
+        // return`${}`
     }
 }
  
